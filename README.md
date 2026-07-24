@@ -15,7 +15,7 @@
 
 ---
 
-### 🧠 what's actually running in my head right now
+###  what's actually running in my head right now
 
 ```txt
 > whoami
@@ -38,12 +38,12 @@ specializing in Cyber Security, currently living inside GenAI & Voice AI systems
 <tr>
 <td width="50%" valign="top">
 
-**🤖 Agentic Systems**
+** Agentic Systems**
 - Multi-agent orchestration & state graphs
 - Deterministic vs. LLM-driven decision boundaries
 - Designing systems that fail *predictably*, not gracefully-ish
 
-**🎙️ Voice AI**
+** Voice AI**
 - Real-time STT/TTS pipelines
 - Latency vs. cost vs. accuracy tradeoffs
 - Turn-taking, interruption handling, VAD tuning
@@ -51,7 +51,7 @@ specializing in Cyber Security, currently living inside GenAI & Voice AI systems
 </td>
 <td width="50%" valign="top">
 
-**🔍 Retrieval & Knowledge Systems**
+** Retrieval & Knowledge Systems**
 - Hybrid search (sparse + dense + fusion)
 - Making unstructured docs machine-actionable
 - Knowledge freshness & sync pipelines
@@ -62,7 +62,7 @@ specializing in Cyber Security, currently living inside GenAI & Voice AI systems
 
 ---
 
-### 🎓 currently leveling up
+###  currently leveling up
 
 <p align="left">
   <img src="https://img.shields.io/badge/Microsoft%20AI--900-Certified-00A4EF?style=for-the-badge&logo=microsoftazure&logoColor=white" />
@@ -73,14 +73,14 @@ I don't chase certifications for the badge — I chase them because they force m
 
 ---
 
-### 🧰 the toolkit I'm sharpening
+###  the toolkit I'm sharpening
 
 <p align="left">
   <img src="https://skillicons.dev/icons?i=py,fastapi,js,nodejs,azure,git,linux,docker,redis&theme=dark" />
 </p>
 
 <details>
-<summary><b>🗂️ open this if you want the unusually specific list</b></summary>
+<summary><b> open this if you want the unusually specific list</b></summary>
 <br>
 
 | Layer | What I'm learning inside it |
@@ -96,7 +96,7 @@ I don't chase certifications for the badge — I chase them because they force m
 
 ---
 
-### 💭 how I actually learn
+###  how I actually learn
 
 > I don't trust a concept until I've broken it, watched the logs, and figured out *why* it broke.
 > Theory first, then I go poke the real system until it stops lying to me.
@@ -109,7 +109,7 @@ I don't chase certifications for the badge — I chase them because they force m
 
 ---
 
-### 📈 the numbers, for the curious
+###  the numbers, for the curious
 
 <p align="center">
   <img height="165" src="https://github-readme-stats.vercel.app/api?username=Cyberpradeep&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=00F7FF&icon_color=00F7FF" />
@@ -122,12 +122,12 @@ I don't chase certifications for the badge — I chase them because they force m
 
 ---
 
-### 📫 catch me here
+###  catch me here
 
 <p align="center">
   <a href="https://github.com/Cyberpradeep"><img src="https://img.shields.io/badge/GitHub-Cyberpradeep-171515?style=for-the-badge&logo=github" /></a>
 </p>
 
 <p align="center">
-  <sub>✨ if you're learning any of the same things — RAG, voice AI, agent orchestration — I'd genuinely like to hear how you're approaching it. Open an issue, say hi.</sub>
+  <sub> if you're learning any of the same things — RAG, voice AI, agent orchestration — I'd genuinely like to hear how you're approaching it. Open an issue, say hi.</sub>
 </p>

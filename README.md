@@ -38,12 +38,12 @@ specializing in Cyber Security, currently living inside GenAI & Voice AI systems
 <tr>
 <td width="50%" valign="top">
 
-** Agentic Systems**
+**Agentic Systems**
 - Multi-agent orchestration & state graphs
 - Deterministic vs. LLM-driven decision boundaries
 - Designing systems that fail *predictably*, not gracefully-ish
 
-** Voice AI**
+**Voice AI**
 - Real-time STT/TTS pipelines
 - Latency vs. cost vs. accuracy tradeoffs
 - Turn-taking, interruption handling, VAD tuning
@@ -51,7 +51,7 @@ specializing in Cyber Security, currently living inside GenAI & Voice AI systems
 </td>
 <td width="50%" valign="top">
 
-** Retrieval & Knowledge Systems**
+**Retrieval & Knowledge Systems**
 - Hybrid search (sparse + dense + fusion)
 - Making unstructured docs machine-actionable
 - Knowledge freshness & sync pipelines

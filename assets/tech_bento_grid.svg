@@ -1,0 +1,202 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 420" width="100%" height="420" fill="none">
+  <defs>
+    <pattern id="bentoDotGrid" width="16" height="16" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.6" fill="#30363d" fill-opacity="0.4"/>
+    </pattern>
+
+    <linearGradient id="cyanLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F7FF" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#00F7FF" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="purpleLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#bc8cff" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#bc8cff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    @keyframes waveOscillate {
+      0%, 100% { d: path("M 0 15 Q 25 5 50 15 T 100 15 T 150 15 T 200 15"); }
+      50% { d: path("M 0 15 Q 25 25 50 15 T 100 15 T 150 5 T 200 15"); }
+    }
+    @keyframes radarScan {
+      0% { transform: scaleX(0.1); opacity: 0.8; }
+      50% { transform: scaleX(1); opacity: 0.4; }
+      100% { transform: scaleX(0.1); opacity: 0.8; }
+    }
+    @keyframes badgePulse {
+      0%, 100% { opacity: 0.5; }
+      50% { opacity: 1; }
+    }
+    @keyframes signalGlitch {
+      0%, 100% { transform: translateX(0); }
+      92% { transform: translateX(0); }
+      94% { transform: translateX(-1px); }
+      96% { transform: translateX(1px); }
+    }
+
+    .mono { font-family: ui-monospace, SFMono-Regular, "Geist Mono", "JetBrains Mono", Menlo, Consolas, monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Geist", Helvetica, Arial, sans-serif; }
+
+    .bento-card {
+      fill: #161b22;
+      stroke: #30363d;
+      stroke-width: 1.2;
+      transition: all 0.3s ease;
+    }
+    .wave-anim {
+      animation: waveOscillate 2s ease-in-out infinite;
+    }
+    .scan-bar {
+      transform-origin: 0% 50%;
+      animation: radarScan 3s ease-in-out infinite;
+    }
+    .live-dot {
+      animation: badgePulse 1.8s infinite;
+    }
+  </style>
+
+  <!-- Base Grid Background -->
+  <rect x="0" y="0" width="920" height="420" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+  <rect x="1" y="1" width="918" height="418" rx="11" fill="url(#bentoDotGrid)"/>
+
+  <!-- Section Header Inside SVG -->
+  <g transform="translate(24, 20)">
+    <text x="0" y="12" fill="#00F7FF" font-size="10" class="mono" font-weight="700" letter-spacing="1.5">CORE DOMAIN ARCHITECTURE</text>
+    <text x="0" y="32" fill="#f0f6fc" font-size="18" class="sans" font-weight="700">Engineering Focus &amp; Production Stack</text>
+  </g>
+
+  <!-- ==================== CARD 1: AGENTIC ORCHESTRATION (Top Left) ==================== -->
+  <g transform="translate(24, 70)">
+    <rect x="0" y="0" width="425" height="155" rx="10" class="bento-card"/>
+    <path d="M 1 10 C 1 5 5 1 10 1 L 415 1 C 420 1 424 5 424 10 L 424 30 L 1 30 Z" fill="#0d1117"/>
+    <line x1="1" y1="30" x2="424" y2="30" stroke="#30363d" stroke-width="1"/>
+
+    <!-- Header & LED -->
+    <circle cx="16" cy="15" r="3.5" fill="#00F7FF" class="live-dot"/>
+    <text x="28" y="19" fill="#f0f6fc" font-size="11" class="mono" font-weight="600">AGENTIC ORCHESTRATION</text>
+    <text x="340" y="19" fill="#00F7FF" font-size="9" class="mono">STATEFUL GRAPH</text>
+
+    <!-- Card Body -->
+    <text x="18" y="55" fill="#f0f6fc" font-size="14" class="sans" font-weight="600">Deterministic vs. LLM Boundaries</text>
+    <text x="18" y="74" fill="#8b949e" font-size="11" class="mono">Hub-and-spoke multi-agent coordination</text>
+    <text x="18" y="90" fill="#6e7681" font-size="10.5" class="mono">Designing systems that fail predictably, not gracefully-ish</text>
+
+    <!-- Pills -->
+    <g transform="translate(18, 112)">
+      <rect x="0" y="0" width="82" height="22" rx="4" fill="#0d1117" stroke="#30363d" stroke-width="0.8"/>
+      <text x="41" y="14" fill="#00F7FF" font-size="10" class="mono" text-anchor="middle">LangGraph</text>
+
+      <rect x="90" y="0" width="95" height="22" rx="4" fill="#0d1117" stroke="#30363d" stroke-width="0.8"/>
+      <text x="137" y="14" fill="#f0f6fc" font-size="10" class="mono" text-anchor="middle">State Graphs</text>
+
+      <rect x="193" y="0" width="105" height="22" rx="4" fill="#0d1117" stroke="#30363d" stroke-width="0.8"/>
+      <text x="245" y="14" fill="#8b949e" font-size="10" class="mono" text-anchor="middle">DLP Gateways</text>
+
+      <rect x="306" y="0" width="95" height="22" rx="4" fill="#0d1117" stroke="#30363d" stroke-width="0.8"/>
+      <text x="353" y="14" fill="#8b949e" font-size="10" class="mono" text-anchor="middle">WinRM / SSH</text>
+    </g>
+  </g>
+
+  <!-- ==================== CARD 2: REAL-TIME VOICE AI (Top Right) ==================== -->
+  <g transform="translate(471, 70)">
+    <rect x="0" y="0" width="425" height="155" rx="10" class="bento-card"/>
+    <path d="M 1 10 C 1 5 5 1 10 1 L 415 1 C 420 1 424 5 424 10 L 424 30 L 1 30 Z" fill="#0d1117"/>
+    <line x1="1" y1="30" x2="424" y2="30" stroke="#30363d" stroke-width="1"/>
+
+    <!-- Header & LED -->
+    <circle cx="16" cy="15" r="3.5" fill="#3fb950" class="live-dot"/>
+    <text x="28" y="19" fill="#f0f6fc" font-size="11" class="mono" font-weight="600">VOICE AI &amp; STREAMING</text>
+    <text x="325" y="19" fill="#3fb950" font-size="9" class="mono">LATENCY &lt; 180ms</text>
+
+    <!-- Card Body -->
+    <text x="18" y="55" fill="#f0f6fc" font-size="14" class="sans" font-weight="600">Real-Time Audio Pipelines</text>
+    <text x="18" y="74" fill="#8b949e" font-size="11" class="mono">STT / TTS latency budgets &amp; turn-taking</text>
+    <text x="18" y="90" fill="#6e7681" font-size="10.5" class="mono">Interruption handling, cost modeling &amp; VAD tuning</text>
+
+    <!-- Animated Audio Waveform Graphic -->
+    <g transform="translate(205, 48)">
+      <path d="M 0 15 Q 25 5 50 15 T 100 15 T 150 15 T 200 15" fill="none" stroke="#3fb950" stroke-width="1.8" class="wave-anim" opacity="0.8"/>
+    </g>
+
+    <!-- Pills -->
+    <g transform="translate(18, 112)">
+      <rect x="0" y="0" width="75" height="22" rx="4" fill="#0d1117" stroke="#30363d" stroke-width="0.8"/>
+      <text x="37" y="14" fill="#3fb950" font-size="10" class="mono" text-anchor="middle">Pipecat</text>
+
+      <rect x="83" y="0" width="78" height="22" rx="4" fill="#0d1117" stroke="#30363d" stroke-width="0.8"/>
+      <text x="122" y="14" fill="#f0f6fc" font-size="10" class="mono" text-anchor="middle">WebRTC</text>
+
+      <rect x="169" y="0" width="95" height="22" rx="4" fill="#0d1117" stroke="#30363d" stroke-width="0.8"/>
+      <text x="216" y="14" fill="#8b949e" font-size="10" class="mono" text-anchor="middle">VAD Tuning</text>
+
+      <rect x="272" y="0" width="130" height="22" rx="4" fill="#0d1117" stroke="#30363d" stroke-width="0.8"/>
+      <text x="337" y="14" fill="#8b949e" font-size="10" class="mono" text-anchor="middle">Turn-Taking Model</text>
+    </g>
+  </g>
+
+  <!-- ==================== CARD 3: RETRIEVAL & RAG (Bottom Left) ==================== -->
+  <g transform="translate(24, 242)">
+    <rect x="0" y="0" width="425" height="155" rx="10" class="bento-card"/>
+    <path d="M 1 10 C 1 5 5 1 10 1 L 415 1 C 420 1 424 5 424 10 L 424 30 L 1 30 Z" fill="#0d1117"/>
+    <line x1="1" y1="30" x2="424" y2="30" stroke="#30363d" stroke-width="1"/>
+
+    <!-- Header & LED -->
+    <circle cx="16" cy="15" r="3.5" fill="#bc8cff" class="live-dot"/>
+    <text x="28" y="19" fill="#f0f6fc" font-size="11" class="mono" font-weight="600">RETRIEVAL &amp; KNOWLEDGE INTERNALS</text>
+    <text x="350" y="19" fill="#bc8cff" font-size="9" class="mono">HYBRID FUSION</text>
+
+    <!-- Card Body -->
+    <text x="18" y="55" fill="#f0f6fc" font-size="14" class="sans" font-weight="600">RAG That Doesn't Overclaim</text>
+    <text x="18" y="74" fill="#8b949e" font-size="11" class="mono">Dense vector search + BM25 lexical fusion</text>
+    <text x="18" y="90" fill="#6e7681" font-size="10.5" class="mono">Chunking strategies that don't fall apart in production</text>
+
+    <!-- Pills -->
+    <g transform="translate(18, 112)">
+      <rect x="0" y="0" width="70" height="22" rx="4" fill="#0d1117" stroke="#30363d" stroke-width="0.8"/>
+      <text x="35" y="14" fill="#bc8cff" font-size="10" class="mono" text-anchor="middle">Qdrant</text>
+
+      <rect x="78" y="0" width="95" height="22" rx="4" fill="#0d1117" stroke="#30363d" stroke-width="0.8"/>
+      <text x="125" y="14" fill="#f0f6fc" font-size="10" class="mono" text-anchor="middle">Dense+Sparse</text>
+
+      <rect x="181" y="0" width="98" height="22" rx="4" fill="#0d1117" stroke="#30363d" stroke-width="0.8"/>
+      <text x="230" y="14" fill="#8b949e" font-size="10" class="mono" text-anchor="middle">Cross-Rerank</text>
+
+      <rect x="287" y="0" width="115" height="22" rx="4" fill="#0d1117" stroke="#30363d" stroke-width="0.8"/>
+      <text x="344" y="14" fill="#8b949e" font-size="10" class="mono" text-anchor="middle">MarkItDown JIT</text>
+    </g>
+  </g>
+
+  <!-- ==================== CARD 4: CYBER SECURITY & CLOUD (Bottom Right) ==================== -->
+  <g transform="translate(471, 242)">
+    <rect x="0" y="0" width="425" height="155" rx="10" class="bento-card"/>
+    <path d="M 1 10 C 1 5 5 1 10 1 L 415 1 C 420 1 424 5 424 10 L 424 30 L 1 30 Z" fill="#0d1117"/>
+    <line x1="1" y1="30" x2="424" y2="30" stroke="#30363d" stroke-width="1"/>
+
+    <!-- Header & LED -->
+    <circle cx="16" cy="15" r="3.5" fill="#f85149" class="live-dot"/>
+    <text x="28" y="19" fill="#f0f6fc" font-size="11" class="mono" font-weight="600">SECURITY &amp; PLATFORM INFRA</text>
+    <text x="320" y="19" fill="#f85149" font-size="9" class="mono">ZERO-TRUST AUDIT</text>
+
+    <!-- Card Body -->
+    <text x="18" y="55" fill="#f0f6fc" font-size="14" class="sans" font-weight="600">Zero-Trust Boundaries &amp; Cloud AI</text>
+    <text x="18" y="74" fill="#8b949e" font-size="11" class="mono">AST Sandboxing &amp; automated DLP secret masking</text>
+    <text x="18" y="90" fill="#6e7681" font-size="10.5" class="mono">Microsoft AI-900 (Certified) · AI-103 (In Progress)</text>
+
+    <!-- Pills -->
+    <g transform="translate(18, 112)">
+      <rect x="0" y="0" width="88" height="22" rx="4" fill="#0d1117" stroke="#30363d" stroke-width="0.8"/>
+      <text x="44" y="14" fill="#00F7FF" font-size="9.5" class="mono" font-weight="600" text-anchor="middle">Azure AI-900</text>
+
+      <rect x="96" y="0" width="88" height="22" rx="4" fill="#0d1117" stroke="#30363d" stroke-width="0.8"/>
+      <text x="140" y="14" fill="#d29922" font-size="9.5" class="mono" text-anchor="middle">Azure AI-103</text>
+
+      <rect x="192" y="0" width="75" height="22" rx="4" fill="#0d1117" stroke="#30363d" stroke-width="0.8"/>
+      <text x="229" y="14" fill="#8b949e" font-size="10" class="mono" text-anchor="middle">FastAPI</text>
+
+      <rect x="275" y="0" width="125" height="22" rx="4" fill="#0d1117" stroke="#30363d" stroke-width="0.8"/>
+      <text x="337" y="14" fill="#8b949e" font-size="10" class="mono" text-anchor="middle">Docker &amp; Redis</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,198 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 370" width="100%" height="370" fill="none">
+  <defs>
+    <!-- Background Grid -->
+    <pattern id="archGrid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.8" fill="#30363d" fill-opacity="0.5"/>
+    </pattern>
+
+    <!-- Node Glow Filter (Restrained) -->
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+
+    <linearGradient id="flowLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#30363d"/>
+      <stop offset="50%" stop-color="#00F7FF" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#30363d"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    @keyframes packetFlow {
+      0% { stroke-dashoffset: 240; }
+      100% { stroke-dashoffset: 0; }
+    }
+    @keyframes nodeBreathe {
+      0%, 100% { stroke-opacity: 0.4; }
+      50% { stroke-opacity: 0.9; }
+    }
+    @keyframes dotPulse {
+      0%, 100% { opacity: 0.4; transform: scale(0.85); }
+      50% { opacity: 1; transform: scale(1.15); }
+    }
+    @keyframes consoleBlink {
+      0%, 49% { opacity: 1; }
+      50%, 100% { opacity: 0; }
+    }
+
+    .mono { font-family: ui-monospace, SFMono-Regular, "Geist Mono", "JetBrains Mono", Menlo, Consolas, monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Geist", Helvetica, Arial, sans-serif; }
+
+    .bus-line {
+      stroke: #30363d;
+      stroke-width: 1.5;
+    }
+    .flow-packet {
+      stroke: #00F7FF;
+      stroke-width: 2;
+      stroke-dasharray: 12 180;
+      animation: packetFlow 3.5s linear infinite;
+    }
+    .flow-packet-alt {
+      stroke: #3fb950;
+      stroke-width: 2;
+      stroke-dasharray: 12 180;
+      animation: packetFlow 3.5s linear infinite;
+      animation-delay: -1.75s;
+    }
+    .node-box {
+      fill: #161b22;
+      stroke: #30363d;
+      stroke-width: 1.2;
+      transition: all 0.3s ease;
+    }
+    .node-box-active {
+      stroke: #00F7FF;
+      animation: nodeBreathe 4s ease-in-out infinite;
+    }
+    .node-led {
+      animation: dotPulse 2s ease-in-out infinite;
+    }
+    .cursor-blink {
+      animation: consoleBlink 0.9s infinite;
+    }
+  </style>
+
+  <!-- Container Box -->
+  <rect x="1" y="1" width="918" height="368" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="1.2"/>
+  <rect x="2" y="2" width="916" height="366" rx="11" fill="url(#archGrid)"/>
+
+  <!-- Architecture Header Bar -->
+  <path d="M 1 12 C 1 5.9 5.9 1 12 1 L 908 1 C 914.1 1 919 5.9 919 12 L 919 40 L 1 40 Z" fill="#161b22"/>
+  <line x1="1" y1="40" x2="919" y2="40" stroke="#30363d" stroke-width="1"/>
+
+  <text x="24" y="25" fill="#f0f6fc" font-size="12" class="mono" font-weight="600">
+    SYSTEM ARCHITECTURE  <tspan fill="#6e7681">// DETERMINISTIC AGENT STATE GRAPH</tspan>
+  </text>
+  <text x="750" y="25" fill="#00F7FF" font-size="10" class="mono">ZERO-TRUST PIPELINE</text>
+
+  <!-- ==================== FLOW BUS WIRES ==================== -->
+  <!-- Main Bus Connection Line (Horizontal Spine) -->
+  <path d="M 160 140 L 305 140 L 460 140 L 615 140 L 760 140" class="bus-line"/>
+  <path d="M 160 140 L 305 140 L 460 140 L 615 140 L 760 140" class="flow-packet"/>
+  <path d="M 160 140 L 305 140 L 460 140 L 615 140 L 760 140" class="flow-packet-alt"/>
+
+  <!-- Return Telemetry Feedback Loop -->
+  <path d="M 760 190 L 760 220 L 460 220 L 460 190" stroke="#30363d" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="545" y="235" fill="#6e7681" font-size="9" class="mono" text-anchor="middle">REAL-TIME AUDIT LOGS &amp; TELEMETRY BUS (msg/1.0)</text>
+
+  <!-- ==================== NODE 1: INTAKE & INGESTION ==================== -->
+  <g transform="translate(40, 75)">
+    <rect x="0" y="0" width="145" height="115" rx="8" class="node-box"/>
+    <!-- Top indicator -->
+    <rect x="1" y="1" width="143" height="4" rx="2" fill="#30363d"/>
+    <circle cx="16" cy="22" r="3" fill="#8b949e"/>
+    <text x="26" y="25" fill="#8b949e" font-size="9" class="mono" font-weight="600">STAGE 01</text>
+    
+    <text x="14" y="48" fill="#f0f6fc" font-size="13" class="sans" font-weight="600">Ingestion Layer</text>
+    <text x="14" y="66" fill="#8b949e" font-size="10" class="mono">MarkItDown Parser</text>
+    <text x="14" y="80" fill="#6e7681" font-size="9" class="mono">Document Layout</text>
+    
+    <rect x="12" y="92" width="121" height="16" rx="4" fill="#0d1117" stroke="#30363d" stroke-width="0.8"/>
+    <text x="72" y="103" fill="#00F7FF" font-size="8.5" class="mono" text-anchor="middle">RAW ARTIFACT: OK</text>
+  </g>
+
+  <!-- ==================== NODE 2: SECURITY & DLP SANDBOX ==================== -->
+  <g transform="translate(215, 75)">
+    <rect x="0" y="0" width="150" height="115" rx="8" class="node-box"/>
+    <rect x="1" y="1" width="148" height="4" rx="2" fill="#d29922"/>
+    <circle cx="16" cy="22" r="3.5" fill="#d29922" class="node-led" style="transform-origin: 231px 97px;"/>
+    <text x="26" y="25" fill="#d29922" font-size="9" class="mono" font-weight="600">STAGE 02 · GATE</text>
+    
+    <text x="14" y="48" fill="#f0f6fc" font-size="13" class="sans" font-weight="600">DLP &amp; Threat Box</text>
+    <text x="14" y="66" fill="#8b949e" font-size="10" class="mono">AST Threat Sandbox</text>
+    <text x="14" y="80" fill="#6e7681" font-size="9" class="mono">Secret Redaction</text>
+    
+    <rect x="12" y="92" width="126" height="16" rx="4" fill="#0d1117" stroke="#30363d" stroke-width="0.8"/>
+    <text x="75" y="103" fill="#3fb950" font-size="8.5" class="mono" text-anchor="middle">ZERO-TRUST: CLEAR</text>
+  </g>
+
+  <!-- ==================== NODE 3: DETERMINISTIC STATE HUB ==================== -->
+  <g transform="translate(395, 65)">
+    <rect x="0" y="0" width="165" height="135" rx="8" class="node-box node-box-active"/>
+    <rect x="1" y="1" width="163" height="4" rx="2" fill="#00F7FF"/>
+    <circle cx="16" cy="22" r="4" fill="#00F7FF" class="node-led" style="transform-origin: 411px 87px;"/>
+    <text x="26" y="25" fill="#00F7FF" font-size="9.5" class="mono" font-weight="700">CORE ORCHESTRATOR</text>
+    
+    <text x="14" y="48" fill="#f0f6fc" font-size="14" class="sans" font-weight="700">Stateful Graph Hub</text>
+    <text x="14" y="68" fill="#8b949e" font-size="10" class="mono">Deterministic Boundary</text>
+    <text x="14" y="84" fill="#6e7681" font-size="9.5" class="mono">Predictable Failures</text>
+    
+    <rect x="12" y="98" width="141" height="24" rx="4" fill="#0d1117" stroke="#00F7FF" stroke-width="0.8"/>
+    <text x="82" y="113" fill="#00F7FF" font-size="9" class="mono" font-weight="600" text-anchor="middle">DECISION: RULE-BOUND</text>
+  </g>
+
+  <!-- ==================== NODE 4: HYBRID RETRIEVAL & RAG ==================== -->
+  <g transform="translate(590, 75)">
+    <rect x="0" y="0" width="150" height="115" rx="8" class="node-box"/>
+    <rect x="1" y="1" width="148" height="4" rx="2" fill="#bc8cff"/>
+    <circle cx="16" cy="22" r="3.5" fill="#bc8cff"/>
+    <text x="26" y="25" fill="#bc8cff" font-size="9" class="mono" font-weight="600">STAGE 04</text>
+    
+    <text x="14" y="48" fill="#f0f6fc" font-size="13" class="sans" font-weight="600">Hybrid RAG Engine</text>
+    <text x="14" y="66" fill="#8b949e" font-size="10" class="mono">Dense Qdrant + BM25</text>
+    <text x="14" y="80" fill="#6e7681" font-size="9" class="mono">Rerank &amp; Chunking</text>
+    
+    <rect x="12" y="92" width="126" height="16" rx="4" fill="#0d1117" stroke="#30363d" stroke-width="0.8"/>
+    <text x="75" y="103" fill="#bc8cff" font-size="8.5" class="mono" text-anchor="middle">FUSION RANK: 0.94</text>
+  </g>
+
+  <!-- ==================== NODE 5: EXECUTION & VERIFICATION ==================== -->
+  <g transform="translate(770, 75)">
+    <rect x="0" y="0" width="130" height="115" rx="8" class="node-box"/>
+    <rect x="1" y="1" width="128" height="4" rx="2" fill="#3fb950"/>
+    <circle cx="16" cy="22" r="3.5" fill="#3fb950"/>
+    <text x="26" y="25" fill="#3fb950" font-size="9" class="mono" font-weight="600">STAGE 05</text>
+    
+    <text x="14" y="48" fill="#f0f6fc" font-size="13" class="sans" font-weight="600">Verification</text>
+    <text x="14" y="66" fill="#8b949e" font-size="10" class="mono">WinRM / SSH Run</text>
+    <text x="14" y="80" fill="#6e7681" font-size="9" class="mono">Real Log Audit</text>
+    
+    <rect x="12" y="92" width="106" height="16" rx="4" fill="#0d1117" stroke="#30363d" stroke-width="0.8"/>
+    <text x="65" y="103" fill="#3fb950" font-size="8.5" class="mono" text-anchor="middle">STATUS: 200 OK</text>
+  </g>
+
+  <!-- ==================== BOTTOM LIVE TELEMETRY LOG STREAM ==================== -->
+  <g transform="translate(20, 275)">
+    <rect x="0" y="0" width="880" height="75" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    
+    <!-- Terminal Header Bar -->
+    <path d="M 0 6 C 0 2.7 2.7 0 6 0 L 874 0 C 877.3 0 880 2.7 880 6 L 880 22 L 0 22 Z" fill="#0d1117"/>
+    <circle cx="14" cy="11" r="3" fill="#f85149" opacity="0.6"/>
+    <circle cx="24" cy="11" r="3" fill="#d29922" opacity="0.6"/>
+    <circle cx="34" cy="11" r="3" fill="#3fb950" opacity="0.6"/>
+    <text x="50" y="14" fill="#8b949e" font-size="9.5" class="mono">RUNTIME TELEMETRY STREAM &gt;&gt; msg/1.0 protocol</text>
+    <text x="810" y="14" fill="#00F7FF" font-size="9" class="mono">LIVE 60FPS</text>
+    
+    <!-- Log Line 1 -->
+    <text x="18" y="42" fill="#8b949e" font-size="10.5" class="mono">
+      <tspan fill="#3fb950">✓</tspan> [A3:Security] DLP gate passed | 0 secret leaks detected | AST sandbox sandbox-ver-4: clear
+    </text>
+    
+    <!-- Log Line 2 -->
+    <text x="18" y="60" fill="#8b949e" font-size="10.5" class="mono">
+      <tspan fill="#00F7FF">&gt;</tspan> [A2:Router] Deterministic boundary checked: &quot;<tspan fill="#f0f6fc">test against real logs, not vibes</tspan>&quot; <tspan fill="#00F7FF" class="cursor-blink">█</tspan>
+    </text>
+  </g>
+</svg>

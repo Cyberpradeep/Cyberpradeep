@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 330" width="100%" height="330" fill="none">
+  <defs>
+    <linearGradient id="termGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#161b22"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    @keyframes termBlink {
+      0%, 49% { opacity: 1; }
+      50%, 100% { opacity: 0; }
+    }
+    @keyframes lineFade {
+      0% { opacity: 0.95; }
+      50% { opacity: 1; }
+      100% { opacity: 0.95; }
+    }
+
+    .mono { font-family: ui-monospace, SFMono-Regular, "Geist Mono", "JetBrains Mono", Menlo, Consolas, monospace; }
+    .cursor { animation: termBlink 1s infinite; }
+    .term-text { animation: lineFade 4s ease-in-out infinite; }
+  </style>
+
+  <!-- Container Box -->
+  <rect x="1" y="1" width="918" height="328" rx="10" fill="#0d1117" stroke="#30363d" stroke-width="1.2"/>
+  
+  <!-- Terminal Top Bar -->
+  <path d="M 1 10 C 1 5 5 1 10 1 L 910 1 C 915 1 919 5 919 10 L 919 36 L 1 36 Z" fill="#161b22"/>
+  <line x1="1" y1="36" x2="919" y2="36" stroke="#30363d" stroke-width="1"/>
+
+  <!-- Control Dots -->
+  <circle cx="20" cy="18" r="4.5" fill="#f85149" opacity="0.8"/>
+  <circle cx="34" cy="18" r="4.5" fill="#d29922" opacity="0.8"/>
+  <circle cx="48" cy="18" r="4.5" fill="#3fb950" opacity="0.8"/>
+
+  <!-- Tab Label -->
+  <rect x="75" y="8" width="220" height="22" rx="4" fill="#0d1117" stroke="#30363d" stroke-width="0.8"/>
+  <text x="92" y="23" fill="#8b949e" font-size="10.5" class="mono">focus_and_mindset.log</text>
+
+  <!-- Shell Path Indicator -->
+  <text x="825" y="23" fill="#6e7681" font-size="10" class="mono">zsh · 80x24</text>
+
+  <!-- Terminal Content Body -->
+  <g transform="translate(24, 60)" class="term-text">
+    <!-- Command 1: whoami -->
+    <text x="0" y="0" fill="#00F7FF" font-size="12" class="mono" font-weight="600">&gt; whoami</text>
+    <text x="0" y="20" fill="#f0f6fc" font-size="11.5" class="mono">
+      final-year student, Muthayammal Engineering College (2027 batch)
+    </text>
+    <text x="0" y="38" fill="#8b949e" font-size="11.5" class="mono">
+      specializing in Cyber Security, currently building inside <tspan fill="#00F7FF">GenAI</tspan> &amp; <tspan fill="#3fb950">Voice AI</tspan> systems
+    </text>
+
+    <!-- Command 2: cat current_focus.log -->
+    <text x="0" y="74" fill="#00F7FF" font-size="12" class="mono" font-weight="600">&gt; cat current_focus.log</text>
+
+    <!-- Log entry 1 -->
+    <text x="0" y="96" font-size="11.5" class="mono">
+      <tspan fill="#d29922">[learning]</tspan>  <tspan fill="#8b949e">multi-agent orchestration patterns</tspan> <tspan fill="#f0f6fc">(hub-and-spoke, deterministic state boundaries)</tspan>
+    </text>
+
+    <!-- Log entry 2 -->
+    <text x="0" y="116" font-size="11.5" class="mono">
+      <tspan fill="#d29922">[learning]</tspan>  <tspan fill="#8b949e">RAG internals —</tspan> <tspan fill="#f0f6fc">hybrid search, reranking, chunking strategies that don't fall apart</tspan>
+    </text>
+
+    <!-- Log entry 3 -->
+    <text x="0" y="136" font-size="11.5" class="mono">
+      <tspan fill="#d29922">[learning]</tspan>  <tspan fill="#8b949e">voice pipelines —</tspan> <tspan fill="#f0f6fc">STT/TTS latency budgets, turn-taking, interruption handling</tspan>
+    </text>
+
+    <!-- Log entry 4 -->
+    <text x="0" y="156" font-size="11.5" class="mono">
+      <tspan fill="#3fb950">[cert-track]</tspan> <tspan fill="#8b949e">Azure AI track —</tspan> <tspan fill="#00F7FF">AI-900 (Certified)</tspan> <tspan fill="#6e7681">·</tspan> <tspan fill="#d29922">AI-103 (In Progress)</tspan>
+    </text>
+
+    <!-- Log entry 5 (The Core Rule) -->
+    <text x="0" y="176" font-size="11.5" class="mono">
+      <tspan fill="#f85149">[always]</tspan>    <tspan fill="#f0f6fc">asking &quot;where does this break in production&quot; before &quot;does this demo work&quot;</tspan>
+    </text>
+
+    <!-- Command 3: philosophy -->
+    <text x="0" y="212" fill="#00F7FF" font-size="12" class="mono" font-weight="600">&gt; cat /etc/mantra</text>
+    <text x="0" y="232" fill="#8b949e" font-size="11.5" class="mono">
+      &quot;test against real logs, not vibes.&quot; <tspan fill="#00F7FF" class="cursor">█</tspan>
+    </text>
+  </g>
+</svg>

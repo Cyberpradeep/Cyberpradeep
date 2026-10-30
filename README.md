@@ -1,32 +1,67 @@
+<!-- ========================================== -->
+<!-- HERO TACTICAL BANNER (DARK OBSIDIAN / HUD) -->
+<!-- ========================================== -->
 <p align="center">
-  <img src="./assets/hero_header.svg" alt="Pradeep — Cyber Security × Agentic Systems" width="100%" />
+  <img src="./assets/hero_tactical.svg" alt="Cyberpradeep // Operator Pradeep" width="100%" />
+</p>
+
+<!-- ========================================== -->
+<!-- SYSTEM CREDENTIALS & STATUS STRIP          -->
+<!-- ========================================== -->
+<p align="center">
+  <img src="./assets/status_badges_strip.svg" alt="Credentials & Academic Track" width="100%" />
 </p>
 
 <p align="center">
-  <img src="./assets/status_badges_strip.svg" alt="Telemetry & Credentials Status" width="100%" />
+  <img src="./assets/sticker_cert_flex.svg" alt="Microsoft Certified AI-900 and AI-103" />
+  <img src="./assets/sticker_coffee.svg" alt="95% Caffeine 0% Vibes" />
+  <img src="./assets/sticker_agent_hallucination.svg" alt="Agent Confidence 100% Reality 0%" />
 </p>
 
 ---
 
-###  System Telemetry & Current Focus
+###  Runtime Terminal &amp; Headspace
 
 <p align="center">
-  <img src="./assets/mindset_terminal.svg" alt="Interactive Runtime Focus Terminal" width="100%" />
+  <img src="./assets/mindset_terminal.svg" alt="Runtime Terminal Log" width="100%" />
+</p>
+
+---
+
+###  The Reality of AI Agents in Production
+
+> *"The danger of generative AI isn't when it fails. It's when it fails with 100% confidence while citing non-existent documentation. This is why I engineer deterministic boundaries — because code must be verified against real logs, not conversational vibes."*
+
+<p align="center">
+  <img src="./assets/meme_ai_in_production.png" alt="Meme: The Two Modes of AI Agents in Production" width="100%" style="border-radius: 8px;" />
+</p>
+
+<p align="center">
+  <img src="./assets/sticker_sanity.svg" alt="Sanity 4% Tests 100% PASS" />
+  <img src="./assets/sticker_friday_deploy.svg" alt="Friday Deploy Blocked" />
 </p>
 
 ---
 
 ###  Autonomous Agent Orchestration Graph
 
-> Designing deterministic execution layers that fail *predictably*, rather than relying on unstructured model confidence.
+> End-to-end zero-trust architecture: From raw intake and AST threat sandboxing to deterministic state routing and real-time log verification.
 
 <p align="center">
-  <img src="./assets/system_architecture.svg" alt="Autonomous Agent Orchestration Graph" width="100%" />
+  <img src="./assets/system_architecture.svg" alt="Deterministic Multi-Agent State Graph" width="100%" />
 </p>
 
 ---
 
-###  Core Domain Architecture
+###  Defense in Depth: Prompt Security vs. AST Sandboxing
+
+<p align="center">
+  <img src="./assets/meme_prompt_vs_security.png" alt="Meme: Prompt Injection vs Zero-Trust AST Sandbox" width="100%" style="border-radius: 8px;" />
+</p>
+
+---
+
+###  Core Engineering Domains
 
 <p align="center">
   <img src="./assets/tech_bento_grid.svg" alt="Core Domain Architecture Bento Grid" width="100%" />
@@ -34,27 +69,17 @@
 
 ---
 
-###  Production Realities // Hallucination Defense
-
-> *"The critical challenge in deploying generative AI into production systems isn't just failure — it's confident failure. My work focuses on building zero-trust sandboxes, AST security gates, and deterministic fail-safes so the system verifies against real logs before acting."*
+###  Production Stack &amp; Tooling Matrix
 
 <p align="center">
-  <img src="./assets/cyberpradeep_ai_hallucination.gif" alt="While AI Hallucinates, Engineer Stress Increases" width="100%" />
-</p>
-
----
-
-###  Sharpened Production Toolkit
-
-<p align="center">
-  <img src="./assets/toolkit_matrix.svg" alt="Production Toolkit Matrix" width="100%" />
+  <img src="./assets/toolkit_matrix.svg" alt="Hardened Stack Matrix" width="100%" />
 </p>
 
 <details>
-<summary><b>▸ Inspect Granular Engineering &amp; Architectural Specifications</b></summary>
+<summary><b>▸ [WAR ROOM ARCHIVE] Granular Production Specifications &amp; Design Tradeoffs</b></summary>
 <br>
 
-| System Layer | Production Focus &amp; Tradeoff Verification |
+| Architectural Layer | Hardened Implementation &amp; Failure Modes |
 | :--- | :--- |
 | **Agent Orchestration** | LangGraph state machines, deterministic fallback routers, zero-trust bus protocols (`msg/1.0`), WinRM/SSH execution sandboxing |
 | **Retrieval &amp; Search** | Qdrant vector storage, BM25 lexical sparse search, Reciprocal Rank Fusion (RRF), cross-encoder reranking, semantic layout parsing |
@@ -67,28 +92,14 @@
 
 ---
 
-###  Engineering Principles &amp; Mindset
-
-> I don't trust an abstraction until I've broken it, inspected the logs, and traced *why* it failed.
-> Theory first, then poke the running system until it stops lying to you.
-
-<p align="left">
-  <img src="https://img.shields.io/badge/methodology-first--principles%20%E2%80%A2%20hands--on-161b22?style=flat-square&labelColor=0d1117&color=00F7FF" />
-  <img src="https://img.shields.io/badge/pet%20peeve-AI%20that%20overclaims-161b22?style=flat-square&labelColor=0d1117&color=f85149" />
-  <img src="https://img.shields.io/badge/rule-test%20against%20real%20logs%2C%20not%20vibes-161b22?style=flat-square&labelColor=0d1117&color=3fb950" />
-</p>
-
----
-
-###  Activity &amp; Commit Telemetry
+###  Production Telemetry &amp; System Health
 
 <p align="center">
-  <img height="155" src="https://github-readme-stats.vercel.app/api?username=Cyberpradeep&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=00F7FF&icon_color=00F7FF&text_color=8b949e" />
-  <img height="155" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Cyberpradeep&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=00F7FF&text_color=8b949e" />
+  <img src="./assets/activity_telemetry.svg" alt="Production Telemetry & Metrics" width="100%" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Cyberpradeep&theme=dark&hide_border=true&background=0D1117&ring=00F7FF&fire=00F7FF&currStreakLabel=00F7FF&sideLabels=8b949e&dates=8b949e" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Cyberpradeep&theme=dark&hide_border=true&background=08090D&ring=00F0FF&fire=00FF9D&currStreakLabel=00F0FF&sideLabels=8B949E&dates=8B949E" />
 </p>
 
 ---
@@ -96,10 +107,10 @@
 ###  Connect
 
 <p align="center">
-  <a href="https://github.com/Cyberpradeep"><img src="https://img.shields.io/badge/GitHub-Cyberpradeep-161b22?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117" /></a>
-  <a href="mailto:cyberpradeep@proton.me"><img src="https://img.shields.io/badge/Direct-Contact-161b22?style=for-the-badge&logo=mail.ru&logoColor=00F7FF&labelColor=0d1117" /></a>
+  <a href="https://github.com/Cyberpradeep"><img src="https://img.shields.io/badge/GitHub-Cyberpradeep-0f131a?style=for-the-badge&logo=github&logoColor=white&labelColor=08090d" /></a>
+  <a href="mailto:cyberpradeep@proton.me"><img src="https://img.shields.io/badge/Direct-Contact-0f131a?style=for-the-badge&logo=mail.ru&logoColor=00f0ff&labelColor=08090d" /></a>
 </p>
 
 <p align="center">
-  <sub>If you're exploring deterministic agent graphs, low-latency Voice AI, or zero-trust retrieval pipelines — let's connect. Open an issue or start a discussion.</sub>
+  <sub>If you're building deterministic multi-agent graphs, low-latency Voice AI, or breaking LLM boundaries — let's connect. Open an issue or reach out directly.</sub>
 </p>

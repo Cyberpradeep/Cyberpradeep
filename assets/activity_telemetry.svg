@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 140" width="100%" height="140" fill="none">
+  <defs>
+    <pattern id="telemetryGrid" width="16" height="16" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.6" fill="#1c2333" fill-opacity="0.6"/>
+    </pattern>
+  </defs>
+
+  <style>
+    @keyframes pulseLed {
+      0%, 100% { opacity: 0.4; }
+      50% { opacity: 1; }
+    }
+    .mono { font-family: ui-monospace, SFMono-Regular, "Geist Mono", "JetBrains Mono", Menlo, Consolas, monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .led { animation: pulseLed 1.8s infinite; }
+  </style>
+
+  <!-- Container -->
+  <rect x="1" y="1" width="918" height="138" rx="8" fill="#08090d" stroke="#1c2333" stroke-width="1.2"/>
+  <rect x="2" y="2" width="916" height="136" rx="7" fill="url(#telemetryGrid)"/>
+
+  <!-- Header Bar -->
+  <path d="M 1 8 C 1 4 4 1 8 1 L 912 1 C 916 1 919 4 919 8 L 919 32 L 1 32 Z" fill="#0f131a"/>
+  <line x1="1" y1="32" x2="919" y2="32" stroke="#1c2333" stroke-width="1"/>
+  
+  <text x="20" y="21" fill="#f0f6fc" font-size="11" class="mono" font-weight="700">
+    DEV TELEMETRY &amp; PRODUCTION METRICS  <tspan fill="#6e7681">// REPOSITORIES &amp; SYSTEMS</tspan>
+  </text>
+  <text x="760" y="21" fill="#00ff9d" font-size="10" class="mono" font-weight="600">ALL NODES GREEN</text>
+
+  <!-- Metrics Grid (4 Columns) -->
+  <!-- Col 1: Security Posture -->
+  <g transform="translate(20, 48)">
+    <rect x="0" y="0" width="205" height="74" rx="6" fill="#0f131a" stroke="#1c2333" stroke-width="0.8"/>
+    <text x="14" y="22" fill="#6e7681" font-size="9" class="mono" font-weight="700" letter-spacing="1">ZERO-TRUST SECURITY</text>
+    <text x="14" y="44" fill="#00ff9d" font-size="16" class="sans" font-weight="800">0 Leaks Detected</text>
+    <text x="14" y="60" fill="#8b949e" font-size="10" class="mono">AST Sandbox: ACTIVE</text>
+  </g>
+
+  <!-- Col 2: Deterministic Rate -->
+  <g transform="translate(245, 48)">
+    <rect x="0" y="0" width="205" height="74" rx="6" fill="#0f131a" stroke="#1c2333" stroke-width="0.8"/>
+    <text x="14" y="22" fill="#6e7681" font-size="9" class="mono" font-weight="700" letter-spacing="1">AGENT BOUNDARY PASS</text>
+    <text x="14" y="44" fill="#00f0ff" font-size="16" class="sans" font-weight="800">100% Deterministic</text>
+    <text x="14" y="60" fill="#8b949e" font-size="10" class="mono">Predictable Failures Only</text>
+  </g>
+
+  <!-- Col 3: Microsoft Dual Cert -->
+  <g transform="translate(470, 48)">
+    <rect x="0" y="0" width="205" height="74" rx="6" fill="#0f131a" stroke="#238636" stroke-width="1"/>
+    <text x="14" y="22" fill="#00ff9d" font-size="9" class="mono" font-weight="700" letter-spacing="1">AZURE AI CERTIFICATION</text>
+    <text x="14" y="44" fill="#f0f6fc" font-size="14.5" class="sans" font-weight="800">AI-900 + AI-103 ✓</text>
+    <text x="14" y="60" fill="#00ff9d" font-size="10" class="mono">Dual Microsoft Certified</text>
+  </g>
+
+  <!-- Col 4: Voice Pipeline Latency -->
+  <g transform="translate(695, 48)">
+    <rect x="0" y="0" width="205" height="74" rx="6" fill="#0f131a" stroke="#1c2333" stroke-width="0.8"/>
+    <text x="14" y="22" fill="#6e7681" font-size="9" class="mono" font-weight="700" letter-spacing="1">VOICE PIPELINE BUDGET</text>
+    <text x="14" y="44" fill="#bc8cff" font-size="16" class="sans" font-weight="800">&lt; 180ms Latency</text>
+    <text x="14" y="60" fill="#8b949e" font-size="10" class="mono">Pipecat + WebRTC Duplex</text>
+  </g>
+</svg>

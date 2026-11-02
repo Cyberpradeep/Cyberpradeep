@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- HERO BANNER: TWILIGHT CHERRY GROVE REALM -->
-<img src="./assets/minecraft_hero_banner.png" alt="Minecraft Twilight Realm Banner — Pradeep Selladurai" width="100%" />
+<img src="./assets/minecraft_hero_banner.png" alt="Minecraft Twilight Realm Banner — Pradeep Selladurai" width="760" style="max-width: 100%; border-radius: 8px;" />
 
 <br><br>
 

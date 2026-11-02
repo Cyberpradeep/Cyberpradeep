@@ -1,71 +1,153 @@
 <p align="center">
-  <img src="./assets/blueprint_bento_profile.svg" alt="Pradeep Selladurai — Engineering Specification & Architecture" width="100%" />
+  <img src="./assets/notebook_header_animated.svg" alt="Pradeep Selladurai — Living Notebook Header" width="100%" />
 </p>
+
+> [!NOTE]
+> 📌 **Engineering Mindset:** *"Understand the task. Reason what's next. Make it happen."*  
+> Exploring autonomous AI agents, real-time voice streaming, and cybersecurity defense. Always learning, solving real problems, and turning ideas into hardened, working systems.
 
 ---
 
-<details open>
-<summary><b>📐 System Architecture &amp; Production Telemetry</b></summary>
-<br>
+### 📖 About Me &amp; Engineering Focus
 
-| Engineering Layer | Hardened Production Implementation &amp; Tolerances |
-| :--- | :--- |
-| **Agent Orchestration** | LangGraph state machines, deterministic fallback routers, zero-trust bus protocols (`msg/1.0`), WinRM/SSH execution sandboxes |
-| **Zero-Trust Security** | AST static analysis, payload sanitization, automated DLP secret masking, credential isolation boundaries |
-| **Retrieval &amp; Search** | Qdrant vector storage, BM25 lexical sparse search, Reciprocal Rank Fusion (RRF), cross-encoder reranking |
-| **Real-Time Voice AI** | Pipecat orchestration, WebRTC duplex streams, STT/TTS latency budgeting (&lt;180ms), turn-taking models, VAD threshold tuning |
-| **Cloud &amp; Platform** | Microsoft Azure AI Foundry, Docker containerization, Redis in-memory caching, Linux administration |
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>🎓 Academic Foundation</h4>
+      <ul>
+        <li><b>Institution:</b> Muthayammal Engineering College, Rasipuram</li>
+        <li><b>Degree:</b> B.E. Computer Science &amp; Engineering (Cyber Security)</li>
+        <li><b>Batch:</b> 2023 – 2027 (Final Year)</li>
+        <li><b>Location:</b> Salem, Tamil Nadu, India</li>
+        <li><b>Core Focus:</b> Network Defense, Threat Modeling, Cryptography, Secure Software Architecture</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h4>💼 Industry &amp; Experience</h4>
+      <ul>
+        <li><b>Role:</b> Junior Software Engineer Intern</li>
+        <li><b>Company:</b> <a href="https://elverve.com">Elverve Technologies</a> (Coimbatore, TN)</li>
+        <li><b>Focus:</b> Autonomous AI Agent Orchestration, Deterministic Tool Calling, Real-Time Voice AI (Gemini Live / Pipecat)</li>
+        <li><b>Methodology:</b> First-principles reasoning, log verification, zero-trust state boundaries</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
-</details>
+---
+
+### 🛠️ Tech Stack &amp; Engineering Tooling
+
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <b>⚡ AI &amp; Agentic Systems</b>
+      <br><br>
+      • LangGraph / State Machines<br>
+      • Gemini Live (Voice AI)<br>
+      • Pipecat Orchestration<br>
+      • Neo4j (Knowledge Graphs)<br>
+      • Qdrant (Vector Embeddings)<br>
+      • RAG &amp; Dense Retrieval
+    </td>
+    <td width="33%" valign="top">
+      <b>⚙️ Backend &amp; Platform</b>
+      <br><br>
+      • Python / FastAPI<br>
+      • Microsoft Azure (AI Foundry)<br>
+      • Docker Containerization<br>
+      • Redis Caching &amp; Queues<br>
+      • Linux Administration<br>
+      • Git Version Control
+    </td>
+    <td width="33%" valign="top">
+      <b>🛡️ Security &amp; Core</b>
+      <br><br>
+      • AST Static Analysis<br>
+      • Network Fundamentals (Cisco)<br>
+      • Android Security (EC-Council)<br>
+      • Zero-Trust Credential Masking<br>
+      • C / C++ / Java / JavaScript<br>
+      • Problem Solving &amp; DSA
+    </td>
+  </tr>
+</table>
+
+---
+
+### 🚀 Featured Engineering Projects
+
+#### 🎙️ [Hospital Voice Assistant](https://github.com/Cyberpradeep) `Public`
+Autonomous AI agent for voice-based hospital appointment scheduling, patient triage, and department routing. Engineered with Gemini Live duplex streaming, FastAPI backend, and Exotel telephony integration for real-time natural turn-taking.
+
+<p align="left">
+  <img src="./assets/voice_ai_stream.svg" alt="Live Voice AI Stream Telemetry" width="420" />
+</p>
+
+`Python` `Gemini Live` `FastAPI` `Voice AI` `WebRTC` `Exotel`
+
+---
+
+#### 🕸️ [Image Scout (Cactus)](https://github.com/Cyberpradeep) `Public`
+Knowledge graph engine for asset intelligence and multi-modal query resolution. Leverages Neo4j graph nodes and Computer Vision vector embeddings to connect complex entities into searchable semantic relationships.
+
+`Python` `Neo4j` `Computer Vision` `Vector Search` `RAG`
+
+---
+
+#### 🤖 [Portfolio Agentic](https://github.com/Cyberpradeep) `Public`
+An interactive portfolio powered by an autonomous agentic execution loop. Demonstrates dynamic tool invocation, system introspection, and real-time project querying.
+
+`Python` `Agentic AI` `LLM` `FastAPI` `Web`
 
 ---
 
 <details>
-<summary><b>📁 Verified Projects &amp; Repositories</b></summary>
+<summary><b>📂 View Other Notable Projects (Machine Learning &amp; Web)</b></summary>
 <br>
 
-* **[Hospital Voice Assistant](https://github.com/Cyberpradeep)** — AI agent for automated appointment booking using Gemini Live, FastAPI &amp; Exotel. `Python` `Gemini` `FastAPI` `Voice AI`
-* **[Image Scout (Cactus)](https://github.com/Cyberpradeep)** — Knowledge graph for asset intelligence using Neo4j and Computer Vision models. `Python` `Neo4j` `Vision` `RAG`
-* **[Portfolio Agentic](https://github.com/Cyberpradeep)** — Personal portfolio platform demonstrating autonomous agentic AI execution. `Python` `Agentic AI` `LLM` `Web`
-* **[Spam Detection](https://github.com/Cyberpradeep)** — Machine learning classification pipeline for automated spam detection. `Python` `ML`
-* **[Loan Eligibility](https://github.com/Cyberpradeep)** — Predictive credit scoring and loan underwriting engine. `Python` `ML`
-* **[Digit Recognition](https://github.com/Cyberpradeep)** — Deep learning convolutional handwritten digit classifier. `Python` `TensorFlow`
-* **[College Management System](https://github.com/Cyberpradeep)** — Full-stack campus operations platform. `React` `Node.js` `MongoDB`
+* **[Spam Detection](https://github.com/Cyberpradeep)** — Machine learning classification pipeline for automated SMS and email spam detection. `Python` `Scikit-Learn`
+* **[Loan Eligibility Prediction](https://github.com/Cyberpradeep)** — Predictive credit scoring and loan underwriting engine using decision classifiers. `Python` `ML`
+* **[Digit Recognition](https://github.com/Cyberpradeep)** — Deep learning convolutional neural network (CNN) for handwritten digit classification. `Python` `TensorFlow`
+* **[College Management System](https://github.com/Cyberpradeep)** — Full-stack campus operations and student records management platform. `React` `Node.js` `MongoDB`
 
 </details>
 
 ---
 
-<details open>
-<summary><b>📜 Professional Accreditations &amp; Credentials</b></summary>
-<br>
+### 📜 Professional Accreditations &amp; Certifications
 
-* **Microsoft Certified: Azure AI-103** — *Designing and Implementing an Azure AI Solution* `[PASS ✓]`
-* **Microsoft Certified: Azure AI-900** — *Microsoft Azure AI Fundamentals* `[PASS ✓]`
-* **Cisco Certified** — *Network Fundamentals &amp; Routing*
-* **EC-Council Certified** — *Android Bug Bounty &amp; Mobile Security*
-* **Diploma in Cyber Security** — *Network Defense &amp; Threat Analysis*
-* **ISC2 Certified** — *Certified in Cybersecurity (CC)*
+<p align="center">
+  <img src="./assets/azure_cert_seals.svg" alt="Microsoft Azure AI-900 &amp; AI-103 Official Certifications" width="100%" />
+</p>
 
-</details>
+* 🛡️ **Microsoft Certified: Azure AI-103** — *Designing and Implementing an Azure AI Solution* `[PASS ✓]`
+* 🛡️ **Microsoft Certified: Azure AI-900** — *Microsoft Azure AI Fundamentals* `[PASS ✓]`
+* 🌐 **Cisco Certified** — *Network Fundamentals &amp; Routing*
+* 📱 **EC-Council Certified** — *Android Bug Bounty &amp; Mobile Security*
+* 📜 **Diploma in Cyber Security** — *Threat Defense &amp; Vulnerability Assessment*
+* 🎯 **ISC2 Candidate** — *Certified in Cybersecurity (CC)*
 
 ---
-
-<div align="center">
 
 ### ⚡ Activity Cadence
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Cyberpradeep&theme=light&hide_border=true&background=F9F8F5&ring=0066CC&fire=10B981&currStreakLabel=0066CC&sideLabels=4C525C&dates=7A828E" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Cyberpradeep&theme=transparent&hide_border=true&ring=0078D4&fire=10B981&currStreakLabel=0078D4&sideLabels=4C525C&dates=7A828E" alt="Cyberpradeep GitHub Streak Stats" />
 </p>
 
-### 📬 Connect
+---
 
 <p align="center">
-  <a href="https://github.com/Cyberpradeep"><img src="https://img.shields.io/badge/GitHub-Cyberpradeep-14171A?style=for-the-badge&logo=github&logoColor=white" /></a>
-  <a href="mailto:cyberpradeep@proton.me"><img src="https://img.shields.io/badge/Direct-Contact-0066CC?style=for-the-badge&logo=mail.ru&logoColor=white" /></a>
+  <img src="./assets/notebook_footer_sticker.svg" alt="Notebook Memo &amp; Motto" width="680" />
 </p>
 
-<sub>"Understand the task. Reason what's next. Make it happen." — See you in the next commit! ☺</sub>
-
-</div>
+<p align="center">
+  <a href="https://github.com/Cyberpradeep"><img src="https://img.shields.io/badge/GitHub-Cyberpradeep-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
+  &nbsp;
+  <a href="https://linkedin.com"><img src="https://img.shields.io/badge/LinkedIn-Pradeep%20Selladurai-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  &nbsp;
+  <a href="mailto:cyberpradeep@proton.me"><img src="https://img.shields.io/badge/Email-cyberpradeep%40proton.me-6D4AFF?style=for-the-badge&logo=protonmail&logoColor=white" /></a>
+  &nbsp;
+  <a href="https://pradeepselladurai.me"><img src="https://img.shields.io/badge/Portfolio-pradeepselladurai.me-0F9D58?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
+</p>

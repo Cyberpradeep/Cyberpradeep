@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 44" width="320" height="44" fill="none">
-  <style>
-    .mono { font-family: ui-monospace, SFMono-Regular, "Geist Mono", "JetBrains Mono", Menlo, Consolas, monospace; }
-  </style>
-  <rect x="1" y="1" width="318" height="42" rx="6" fill="#0d1117" stroke="#238636" stroke-width="1.2"/>
-  <rect x="1" y="1" width="5" height="42" rx="2" fill="#238636"/>
-  <text x="18" y="17" fill="#3fb950" font-size="9" class="mono" font-weight="600" letter-spacing="1">MICROSOFT DUAL CERTIFIED</text>
-  <text x="18" y="32" fill="#f0f6fc" font-size="11" class="mono" font-weight="700">🏆 Azure AI-900 ✓ · Azure AI-103 ✓</text>
-</svg>

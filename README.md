@@ -288,7 +288,7 @@ DEFENSE MECHANISMS IN ACTION:
         </a>
       </td>
       <td align="center">
-        <a href="https://www.linkedin.com/in/pradeep-selladurai/" target="_blank">
+        <a href="https://www.linkedin.com/in/pradeepselladurai/" target="_blank">
           <img src="./assets/slot_2_linkedin.png" alt="Slot 2: LinkedIn" width="220" />
         </a>
       </td>

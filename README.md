@@ -3,7 +3,7 @@
 <!-- HERO BANNER: TWILIGHT CHERRY GROVE REALM -->
 <img src="./assets/minecraft_hero_banner.png" alt="Pradeep Selladurai — Autonomous AI Agent Engineer Minecraft Twilight Realm Banner" title="Minecraft Twilight Realm Banner — Pradeep Selladurai" width="760" style="max-width: 100%; border-radius: 8px;" />
 
-<h1 align="center">Pradeep Selladurai // Autonomous AI Agent &amp; Systems Security Engineer</h1>
+<h1 align="center">Pradeep Selladurai // Autonomous AI Agent </h1>
 <p align="center"><b>Authentic Minecraft-Themed Animated Engineering Realm &amp; Systems Portfolio</b></p>
 
 <br><br>

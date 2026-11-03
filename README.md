@@ -1,28 +1,31 @@
 <div align="center">
 
 <!-- HERO BANNER: TWILIGHT CHERRY GROVE REALM -->
-<img src="./assets/minecraft_hero_banner.png" alt="Minecraft Twilight Realm Banner — Pradeep Selladurai" width="760" style="max-width: 100%; border-radius: 8px;" />
+<img src="./assets/minecraft_hero_banner.png" alt="Pradeep Selladurai — Autonomous AI Agent Engineer Minecraft Twilight Realm Banner" title="Minecraft Twilight Realm Banner — Pradeep Selladurai" width="760" style="max-width: 100%; border-radius: 8px;" />
+
+<h1 align="center">Pradeep Selladurai // Autonomous AI Agent &amp; Systems Security Engineer</h1>
+<p align="center"><b>Authentic Minecraft-Themed Animated Engineering Realm &amp; Systems Portfolio</b></p>
 
 <br><br>
 
 <!-- AUTHENTIC MINECRAFT CLEAN IN-GAME HUD -->
-<img src="./assets/hud_stats_pixel.png" alt="Minecraft In-Game Clean HUD — Health, Armor, XP Level 2027" width="540" />
+<img src="./assets/hud_stats_pixel.png" alt="Authentic Minecraft HUD — In-Game Health, Armor, and Level 2027 XP Bar" title="Minecraft In-Game Clean HUD Stats Bar" width="540" />
 
 <br><br>
 
 <!-- IN-GAME MINECRAFT CHAT MESSAGE BOX -->
-<img src="./assets/minecraft_chat_box.png" alt="Minecraft In-Game Chat Messages" width="760" />
+<img src="./assets/minecraft_chat_box.png" alt="In-Game Minecraft Chat Box — Autonomous AI Agents and Real-Time Voice Assistant Overview" title="Minecraft In-Game Chat Box" width="760" />
 
 <br><br>
 
 <!-- WORLD GAME MODE: CREATIVE -->
-<img src="./assets/game_mode_creative.gif" alt="World Game Mode: Creative" width="220" style="border-radius: 4px;" />
+<img src="./assets/game_mode_creative.gif" alt="Minecraft Game Mode Creative Selected Animation" title="World Game Mode: Creative" width="220" style="border-radius: 4px;" />
 
 </div>
 
 <br>
 <div align="center">
-  <img src="./assets/redstone_wire_divider.gif" alt="Active Redstone Power Conduit" width="100%" />
+  <img src="./assets/redstone_wire_divider.gif" alt="Animated Minecraft Redstone Wire Divider — Seamless Looping GIF for GitHub Profile Readme" title="Active Redstone Conduit Divider Animation" width="100%" />
 </div>
 <br>
 
@@ -30,7 +33,7 @@
 <table width="100%" cellspacing="0" cellpadding="0" border="0">
   <tr>
     <td width="42%" valign="middle" align="center">
-      <img src="./assets/mojang_steve_wave.gif" alt="Minecraft Character Waving — Welcome to the Realm" width="100%" style="border-radius: 6px;" />
+      <img src="./assets/mojang_steve_wave.gif" alt="Mojang Minecraft Character Waving Animation — Welcome to Cyberpradeep Engineering Realm" title="Minecraft Character Waving Animation" width="100%" style="border-radius: 6px;" />
     </td>
     <td width="4%" valign="top"></td>
     <td width="54%" valign="middle">
@@ -50,7 +53,7 @@
 
 <br>
 <div align="center">
-  <img src="./assets/redstone_wire_divider.gif" alt="Active Redstone Power Conduit" width="100%" />
+  <img src="./assets/redstone_wire_divider.gif" alt="Animated Minecraft Redstone Wire Divider — Seamless Looping GIF for GitHub Profile Readme" title="Active Redstone Conduit Divider Animation" width="100%" />
 </div>
 <br>
 
@@ -73,14 +76,14 @@ SPECIALTY    :: Autonomous AI Agents, Gemini Live Voice, Zero-Trust Safety
     </td>
     <td width="4%" valign="top"></td>
     <td width="42%" valign="middle" align="center">
-      <img src="./assets/jesse_petra_grins.png" alt="Jesse and Petra ready for the quest" width="100%" style="border-radius: 4px;" />
+      <img src="./assets/jesse_petra_grins.png" alt="Jesse and Petra Ready for Quest — Engineering Guild Experience and Education" title="Minecraft Story Mode Guild Reaction" width="100%" style="border-radius: 4px;" />
     </td>
   </tr>
 </table>
 
 <br>
 <div align="center">
-  <img src="./assets/redstone_wire_divider.gif" alt="Active Redstone Power Conduit" width="100%" />
+  <img src="./assets/redstone_wire_divider.gif" alt="Animated Minecraft Redstone Wire Divider — Seamless Looping GIF for GitHub Profile Readme" title="Active Redstone Conduit Divider Animation" width="100%" />
 </div>
 <br>
 
@@ -91,7 +94,7 @@ SPECIALTY    :: Autonomous AI Agents, Gemini Live Voice, Zero-Trust Safety
   
   <br>
   
-  <img src="./assets/minecraft_crafting_composite.png" alt="Authentic Minecraft Crafting Table GUI" width="760" />
+  <img src="./assets/minecraft_crafting_composite.png" alt="Authentic Minecraft Crafting Table GUI and Enchanted Tooltip Lore for Autonomous AI Agent Core" title="Authentic Minecraft Crafting Table GUI" width="760" />
 </div>
 
 <br>
@@ -99,7 +102,7 @@ SPECIALTY    :: Autonomous AI Agents, Gemini Live Voice, Zero-Trust Safety
 <table width="100%" cellspacing="0" cellpadding="0" border="0">
   <tr>
     <td width="38%" valign="middle" align="center">
-      <img src="./assets/villager_trio_appraisal.png" alt="Villagers evaluating the recipe" width="100%" />
+      <img src="./assets/villager_trio_appraisal.png" alt="Minecraft Villagers Evaluating Recipe — Tech Stack Appraisal" title="Minecraft Villager Tech Stack Appraisal" width="100%" />
     </td>
     <td width="4%" valign="top"></td>
     <td width="58%" valign="middle">
@@ -116,7 +119,7 @@ SPECIALTY    :: Autonomous AI Agents, Gemini Live Voice, Zero-Trust Safety
 
 <br>
 <div align="center">
-  <img src="./assets/redstone_wire_divider.gif" alt="Active Redstone Power Conduit" width="100%" />
+  <img src="./assets/redstone_wire_divider.gif" alt="Animated Minecraft Redstone Wire Divider — Seamless Looping GIF for GitHub Profile Readme" title="Active Redstone Conduit Divider Animation" width="100%" />
 </div>
 <br>
 
@@ -124,7 +127,7 @@ SPECIALTY    :: Autonomous AI Agents, Gemini Live Voice, Zero-Trust Safety
 <table width="100%" cellspacing="0" cellpadding="0" border="0">
   <tr>
     <td width="42%" valign="middle" align="center">
-      <img src="./assets/ivor_paradox.png" alt="Ivor explaining paradoxes" width="100%" style="border-radius: 4px;" />
+      <img src="./assets/ivor_paradox.png" alt="Ivor Explaining Paradoxes — Redstone Logic and Solving AI Agent Hallucinations" title="Ivor Paradox Reaction" width="100%" style="border-radius: 4px;" />
     </td>
     <td width="4%" valign="top"></td>
     <td width="54%" valign="middle">
@@ -141,7 +144,7 @@ SPECIALTY    :: Autonomous AI Agents, Gemini Live Voice, Zero-Trust Safety
 
 <br>
 <div align="center">
-  <img src="./assets/redstone_wire_divider.gif" alt="Active Redstone Power Conduit" width="100%" />
+  <img src="./assets/redstone_wire_divider.gif" alt="Animated Minecraft Redstone Wire Divider — Seamless Looping GIF for GitHub Profile Readme" title="Active Redstone Conduit Divider Animation" width="100%" />
 </div>
 <br>
 
@@ -181,7 +184,7 @@ SPECIALTY    :: Autonomous AI Agents, Gemini Live Voice, Zero-Trust Safety
     </td>
     <td width="4%" valign="top"></td>
     <td width="38%" valign="middle" align="center">
-      <img src="./assets/lukas_reading_book.png" alt="Lukas inspecting the codebase documentation" width="85%" style="border-radius: 4px;" />
+      <img src="./assets/lukas_reading_book.png" alt="Lukas Inspecting Codebase Documentation — Signature AI Builds" title="Lukas Codebase Review" width="85%" style="border-radius: 4px;" />
       <br>
       <sub><code>LUKAS: "CHECKING THE REPO COMMIT LOGS..."</code></sub>
     </td>
@@ -190,7 +193,7 @@ SPECIALTY    :: Autonomous AI Agents, Gemini Live Voice, Zero-Trust Safety
 
 <br>
 <div align="center">
-  <img src="./assets/redstone_wire_divider.gif" alt="Active Redstone Power Conduit" width="100%" />
+  <img src="./assets/redstone_wire_divider.gif" alt="Animated Minecraft Redstone Wire Divider — Seamless Looping GIF for GitHub Profile Readme" title="Active Redstone Conduit Divider Animation" width="100%" />
 </div>
 <br>
 
@@ -198,9 +201,9 @@ SPECIALTY    :: Autonomous AI Agents, Gemini Live Voice, Zero-Trust Safety
 <table width="100%" cellspacing="0" cellpadding="0" border="0">
   <tr>
     <td width="42%" valign="middle" align="center">
-      <img src="./assets/iron_golem_guardian.png" alt="Iron Golem defending the village" width="100%" style="border-radius: 4px;" />
+      <img src="./assets/iron_golem_guardian.png" alt="Iron Golem Defending Village — Zero-Trust Perimeter Security" title="Iron Golem Perimeter Security" width="100%" style="border-radius: 4px;" />
       <br><br>
-      <img src="./assets/steve_skeleton_cliff.png" alt="Steve knocking the skeleton off the cliff" width="100%" style="border-radius: 4px;" />
+      <img src="./assets/steve_skeleton_cliff.png" alt="Steve Striking Skeleton Off Cliff — Eliminating Prompt Injection and Security Threats" title="Steve Eliminating Hostile Threats" width="100%" style="border-radius: 4px;" />
     </td>
     <td width="4%" valign="top"></td>
     <td width="54%" valign="middle">
@@ -229,7 +232,7 @@ DEFENSE MECHANISMS IN ACTION:
 
 <br>
 <div align="center">
-  <img src="./assets/redstone_wire_divider.gif" alt="Active Redstone Power Conduit" width="100%" />
+  <img src="./assets/redstone_wire_divider.gif" alt="Animated Minecraft Redstone Wire Divider — Seamless Looping GIF for GitHub Profile Readme" title="Active Redstone Conduit Divider Animation" width="100%" />
 </div>
 <br>
 
@@ -252,7 +255,7 @@ DEFENSE MECHANISMS IN ACTION:
     </td>
     <td width="4%" valign="top"></td>
     <td width="38%" valign="middle" align="center">
-      <img src="./assets/dragon_egg_victory.gif" alt="Defeating the Final Boss — Dragon Egg Trophy Unlocked" width="100%" style="border-radius: 6px;" />
+      <img src="./assets/dragon_egg_victory.gif" alt="Herobrine End Portal and Dragon Egg Trophy Victory Animation — Verified Azure and Cisco Certifications" title="Minecraft End Portal Dragon Egg Trophy Animation" width="100%" style="border-radius: 6px;" />
       <br>
       <sub><code>FINAL BOSS DEFEATED // VERIFIED CREDENTIALS UNLOCKED</code></sub>
     </td>
@@ -261,7 +264,7 @@ DEFENSE MECHANISMS IN ACTION:
 
 <br>
 <div align="center">
-  <img src="./assets/redstone_wire_divider.gif" alt="Active Redstone Power Conduit" width="100%" />
+  <img src="./assets/redstone_wire_divider.gif" alt="Animated Minecraft Redstone Wire Divider — Seamless Looping GIF for GitHub Profile Readme" title="Active Redstone Conduit Divider Animation" width="100%" />
 </div>
 <br>
 
@@ -270,12 +273,12 @@ DEFENSE MECHANISMS IN ACTION:
   <h3>MULTIPLAYER LOBBY // CONNECT &amp; COLLABORATE</h3>
   <p>Ready to team up on AI agents, real-time voice streaming, or systems security? Select a slot to connect!</p>
   
-  <img src="./assets/squad_reaction_cropped.png" alt="The squad watching the phone together" width="420" style="border-radius: 4px;" />
+  <img src="./assets/squad_reaction_cropped.png" alt="Minecraft Squad Laughing at Phone — Multiplayer Lobby Collaboration" title="Minecraft Squad Multiplayer Collaboration" width="420" style="border-radius: 4px;" />
   
   <br><br>
   
   <!-- AUTHENTIC MINECRAFT EQUIPPED HOTBAR -->
-  <img src="./assets/minecraft_hotbar_equipped.png" alt="Minecraft Inventory Hotbar" width="546" />
+  <img src="./assets/minecraft_hotbar_equipped.png" alt="Authentic Minecraft 9-Slot Hotbar with Book, Compass, Torch, and Ender Pearl Item Sprites" title="Minecraft Inventory Hotbar" width="546" />
   
   <br><br>
   
@@ -284,24 +287,64 @@ DEFENSE MECHANISMS IN ACTION:
     <tr>
       <td align="center">
         <a href="https://github.com/Cyberpradeep" target="_blank">
-          <img src="./assets/slot_1_github.png" alt="Slot 1: GitHub" width="220" />
+          <img src="./assets/slot_1_github.png" alt="Slot 1: GitHub — Cyberpradeep Code Repositories" title="Slot 1: GitHub Repository" width="220" />
         </a>
       </td>
       <td align="center">
         <a href="https://www.linkedin.com/in/pradeepselladurai/" target="_blank">
-          <img src="./assets/slot_2_linkedin.png" alt="Slot 2: LinkedIn" width="220" />
+          <img src="./assets/slot_2_linkedin.png" alt="Slot 2: LinkedIn — Pradeep Selladurai Professional Network" title="Slot 2: LinkedIn Profile" width="220" />
         </a>
       </td>
       <td align="center">
         <a href="https://pradeepselladurai.me" target="_blank">
-          <img src="./assets/slot_3_portfolio.png" alt="Slot 3: Portfolio" width="220" />
+          <img src="./assets/slot_3_portfolio.png" alt="Slot 3: Portfolio — pradeepselladurai.me Interactive AI Portfolio" title="Slot 3: Personal Portfolio" width="220" />
         </a>
       </td>
       <td align="center">
         <a href="mailto:pradeepnaveen930@gmail.com" target="_blank">
-          <img src="./assets/slot_4_comms.png" alt="Slot 4: Email" width="220" />
+          <img src="./assets/slot_4_comms.png" alt="Slot 4: Email — pradeepnaveen930@gmail.com Direct Contact" title="Slot 4: Direct Email Contact" width="220" />
         </a>
       </td>
     </tr>
   </table>
 </div>
+
+
+<!--
+======================================================================
+MACHINE-READABLE METADATA // SEARCH & ANSWER ENGINE OPTIMIZATION (SEO / AEO / GEO)
+======================================================================
+Entity Definition:
+- Name: Pradeep Selladurai
+- Online Handle: Cyberpradeep
+- Current Role: Junior Software Engineer Intern @ Elverve Technologies
+- Academic Degree: B.E. Computer Science & Engineering (Cyber Security), Batch 2023 - 2027
+- University / Base: Muthayammal Engineering College, Rasipuram, Tamil Nadu, India
+- Location: Salem, Tamil Nadu, India
+- Website: https://pradeepselladurai.me
+- Contact Email: pradeepnaveen930@gmail.com
+- GitHub Profile: https://github.com/Cyberpradeep
+- LinkedIn Profile: https://www.linkedin.com/in/pradeepselladurai/
+
+Technical Specializations:
+- Primary Domains: Autonomous AI Agents, Real-Time Duplex Voice AI Systems, Zero-Trust Systems Security
+- Core Languages: Python, JavaScript/TypeScript, SQL
+- AI & Frameworks: Gemini Live API, LangGraph, FastAPI, WebRTC, Neo4j Graph Database, Qdrant Vector Search, Docker
+- Security Capabilities: Prompt Injection Defense, Zero-Trust Tool Sandboxing, Static Code Verification, Cisco-Grade Network Routing
+
+Verified Certifications:
+- Microsoft Certified: Azure AI Solutions (AI-103)
+- Microsoft Certified: Azure AI Fundamentals (AI-900)
+- Cisco Certified: Network Fundamentals & Routing
+
+Featured Projects & Signatures:
+1. Hospital Voice Assistant: Real-time duplex voice AI for clinical appointment scheduling and patient routing with sub-500ms latency (Python, Gemini Live, FastAPI, WebRTC, Exotel).
+2. Image Scout (Cactus Engine): Knowledge graph engine linking visual assets with Neo4j and vector search.
+3. Portfolio Agentic Core: Autonomous portfolio execution loop running deterministic state graphs (LangGraph, FastAPI).
+
+Design & Aesthetic Keywords:
+- Theme: Authentic Minecraft Java Edition
+- Features: Twilight Cherry Grove panoramic banner, pixel-perfect in-game HUD with Level 2027 XP bar, in-game chat box, active redstone repeater wire loop divider GIF, authentic 2x2 crafting table GUI with enchanted tooltip lore, Herobrine End Portal Dragon Egg victory GIF, 9-slot inventory hotbar with Book & Quill, Compass, Redstone Torch, and Ender Pearl item badges.
+- Keywords: animated github profile, best minecraft github readme, interactive github profile readme, cool github readme animation gif, autonomous ai agent engineer github, gemini live duplex voice developer, langgraph state engine deterministic ai, pixel art developer portfolio readme.
+======================================================================
+-->
